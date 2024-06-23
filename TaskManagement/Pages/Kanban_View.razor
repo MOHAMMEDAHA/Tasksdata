@@ -1,0 +1,781 @@
+@page "/"
+@page "/kanban_view"
+
+<div class="column-layout kanban-view-container">
+    <div class="row-layout group">
+        <div class="column-layout group_1">
+            <div class="row-layout group_2">
+                <div class="row-layout group_3">
+                    <span class="material-icons icon">
+                        assignment
+                    </span>
+                    <h6 class="h6">
+                        To do
+                    </h6>
+                </div>
+                <IgbAvatar Initials="3" Shape="AvatarShape.Circle" class="avatar" kanban_view-scope></IgbAvatar>
+            </div>
+            <IgbCard class="card" kanban_view-scope>
+                <IgbCardHeader>
+                    <div slot="thumbnail">
+                        <IgbAvatar Src="assets/Avatar2.png" Shape="AvatarShape.Circle" class="avatar_1" kanban_view-scope></IgbAvatar>
+                    </div>
+                    <h3 slot="title">
+                        Create brand guidelines
+                    </h3>
+                    <h5 slot="subtitle">
+                        Deadline: Nov 19, 2021
+                    </h5>
+                </IgbCardHeader>
+                <IgbCardMedia class="media-content" kanban_view-scope>
+                    <img src="assets/BrandGuidelines.png" class="image" />
+                </IgbCardMedia>
+                <IgbCardActions class="actions-content" kanban_view-scope>
+                    <IgbIconButton slot="start" Variant="IconButtonVariant.Flat" class="icon-button" kanban_view-scope>
+                        <span class="material-icons icon_1">
+                            attach_file
+                        </span>
+                        <IgbRipple></IgbRipple>
+                    </IgbIconButton>
+                    <IgbIconButton slot="start" Variant="IconButtonVariant.Flat" class="icon-button" kanban_view-scope>
+                        <span class="material-icons icon_1">
+                            archive
+                        </span>
+                        <IgbRipple></IgbRipple>
+                    </IgbIconButton>
+                    <IgbIconButton slot="start" Variant="IconButtonVariant.Flat" class="icon-button" kanban_view-scope>
+                        <span class="material-icons icon_1">
+                            share
+                        </span>
+                        <IgbRipple></IgbRipple>
+                    </IgbIconButton>
+                    <IgbButton Variant="ButtonVariant.Flat" slot="end" Size="SizableComponentSize.Large" class="button" kanban_view-scope>
+                        COMPLETE
+                        <IgbRipple></IgbRipple>
+                    </IgbButton>
+                </IgbCardActions>
+            </IgbCard>
+            <IgbCard class="card" kanban_view-scope>
+                <IgbCardHeader>
+                    <div slot="thumbnail">
+                        <IgbAvatar Src="assets/Avatar6.png" Shape="AvatarShape.Circle" class="avatar_2" kanban_view-scope></IgbAvatar>
+                    </div>
+                    <h3 slot="title">
+                        App Preview
+                    </h3>
+                    <h5 slot="subtitle">
+                        Deadline: Nov 24, 2021
+                    </h5>
+                </IgbCardHeader>
+                <IgbCardMedia class="media-content" kanban_view-scope>
+                    <img src="assets/AppPreview.png" class="image" />
+                </IgbCardMedia>
+                <IgbCardActions class="actions-content" kanban_view-scope>
+                    <IgbIconButton slot="start" Variant="IconButtonVariant.Flat" class="icon-button" kanban_view-scope>
+                        <span class="material-icons icon_1">
+                            attach_file
+                        </span>
+                        <IgbRipple></IgbRipple>
+                    </IgbIconButton>
+                    <IgbIconButton slot="start" Variant="IconButtonVariant.Flat" class="icon-button" kanban_view-scope>
+                        <span class="material-icons icon_1">
+                            archive
+                        </span>
+                        <IgbRipple></IgbRipple>
+                    </IgbIconButton>
+                    <IgbIconButton slot="start" Variant="IconButtonVariant.Flat" class="icon-button" kanban_view-scope>
+                        <span class="material-icons icon_1">
+                            share
+                        </span>
+                        <IgbRipple></IgbRipple>
+                    </IgbIconButton>
+                    <IgbButton Variant="ButtonVariant.Flat" slot="end" Size="SizableComponentSize.Large" class="button" kanban_view-scope>
+                        COMPLETE
+                        <IgbRipple></IgbRipple>
+                    </IgbButton>
+                </IgbCardActions>
+            </IgbCard>
+            <IgbCard class="card" kanban_view-scope>
+                <IgbCardHeader>
+                    <div slot="thumbnail">
+                        <IgbAvatar Src="assets/Avatar9.png" Shape="AvatarShape.Circle" class="avatar_3" kanban_view-scope></IgbAvatar>
+                    </div>
+                    <h3 slot="title">
+                        Cloud Integration
+                    </h3>
+                    <h5 slot="subtitle">
+                        Deadline: Nov 28, 2021
+                    </h5>
+                </IgbCardHeader>
+                <IgbCardActions class="actions-content" kanban_view-scope>
+                    <IgbIconButton slot="start" Variant="IconButtonVariant.Flat" class="icon-button" kanban_view-scope>
+                        <span class="material-icons icon_1">
+                            attach_file
+                        </span>
+                        <IgbRipple></IgbRipple>
+                    </IgbIconButton>
+                    <IgbIconButton slot="start" Variant="IconButtonVariant.Flat" class="icon-button" kanban_view-scope>
+                        <span class="material-icons icon_1">
+                            archive
+                        </span>
+                        <IgbRipple></IgbRipple>
+                    </IgbIconButton>
+                    <IgbIconButton slot="start" Variant="IconButtonVariant.Flat" class="icon-button" kanban_view-scope>
+                        <span class="material-icons icon_1">
+                            share
+                        </span>
+                        <IgbRipple></IgbRipple>
+                    </IgbIconButton>
+                    <IgbButton Variant="ButtonVariant.Flat" slot="end" Size="SizableComponentSize.Large" class="button" kanban_view-scope>
+                        COMPLETE
+                        <IgbRipple></IgbRipple>
+                    </IgbButton>
+                </IgbCardActions>
+            </IgbCard>
+        </div>
+        <div class="column-layout group_1">
+            <div class="row-layout group_4">
+                <div class="row-layout group_3">
+                    <span class="material-icons icon">
+                        developer_board
+                    </span>
+                    <h6 class="h6">
+                        In Development
+                    </h6>
+                </div>
+                <IgbAvatar Initials="5" Shape="AvatarShape.Circle" class="avatar_4" kanban_view-scope></IgbAvatar>
+            </div>
+            <IgbCard class="card" kanban_view-scope>
+                <IgbCardHeader>
+                    <div slot="thumbnail">
+                        <IgbAvatar Src="assets/Avatar6.png" Shape="AvatarShape.Circle" class="avatar_5" kanban_view-scope></IgbAvatar>
+                    </div>
+                    <h3 slot="title">
+                        Connect to DataSources
+                    </h3>
+                    <h5 slot="subtitle">
+                        Deadline: Oct 28, 2021
+                    </h5>
+                </IgbCardHeader>
+                <IgbCardActions class="actions-content" kanban_view-scope>
+                    <IgbIconButton slot="start" Variant="IconButtonVariant.Flat" class="icon-button" kanban_view-scope>
+                        <span class="material-icons icon_1">
+                            attach_file
+                        </span>
+                        <IgbRipple></IgbRipple>
+                    </IgbIconButton>
+                    <IgbIconButton slot="start" Variant="IconButtonVariant.Flat" class="icon-button" kanban_view-scope>
+                        <span class="material-icons icon_1">
+                            archive
+                        </span>
+                        <IgbRipple></IgbRipple>
+                    </IgbIconButton>
+                    <IgbIconButton slot="start" Variant="IconButtonVariant.Flat" class="icon-button" kanban_view-scope>
+                        <span class="material-icons icon_1">
+                            share
+                        </span>
+                        <IgbRipple></IgbRipple>
+                    </IgbIconButton>
+                    <IgbButton Variant="ButtonVariant.Flat" slot="end" Size="SizableComponentSize.Large" class="button" kanban_view-scope>
+                        COMPLETE
+                        <IgbRipple></IgbRipple>
+                    </IgbButton>
+                </IgbCardActions>
+            </IgbCard>
+            <IgbCard class="card" kanban_view-scope>
+                <IgbCardHeader>
+                    <div slot="thumbnail">
+                        <IgbAvatar Src="assets/Avatar3.png" Shape="AvatarShape.Circle" class="avatar_6" kanban_view-scope></IgbAvatar>
+                    </div>
+                    <h3 slot="title">
+                        Build App
+                    </h3>
+                    <h5 slot="subtitle">
+                        Deadline: Oct 28, 2021
+                    </h5>
+                </IgbCardHeader>
+                <IgbCardMedia class="media-content" kanban_view-scope>
+                    <img src="assets/BuildApp.png" class="image" />
+                </IgbCardMedia>
+                <IgbCardContent class="body-content" kanban_view-scope>
+                    <p class="typography__body-1 text">
+                        Body 1
+                    </p>
+                </IgbCardContent>
+                <IgbCardActions class="actions-content" kanban_view-scope>
+                    <IgbIconButton slot="start" Variant="IconButtonVariant.Flat" class="icon-button" kanban_view-scope>
+                        <span class="material-icons icon_1">
+                            attach_file
+                        </span>
+                        <IgbRipple></IgbRipple>
+                    </IgbIconButton>
+                    <IgbIconButton slot="start" Variant="IconButtonVariant.Flat" class="icon-button" kanban_view-scope>
+                        <span class="material-icons icon_1">
+                            archive
+                        </span>
+                        <IgbRipple></IgbRipple>
+                    </IgbIconButton>
+                    <IgbIconButton slot="start" Variant="IconButtonVariant.Flat" class="icon-button" kanban_view-scope>
+                        <span class="material-icons icon_1">
+                            share
+                        </span>
+                        <IgbRipple></IgbRipple>
+                    </IgbIconButton>
+                    <IgbButton Variant="ButtonVariant.Flat" slot="end" Size="SizableComponentSize.Large" class="button" kanban_view-scope>
+                        COMPLETE
+                        <IgbRipple></IgbRipple>
+                    </IgbButton>
+                </IgbCardActions>
+            </IgbCard>
+            <IgbCard class="card" kanban_view-scope>
+                <IgbCardHeader>
+                    <div slot="thumbnail">
+                        <IgbAvatar Src="assets/Avatar5.png" Shape="AvatarShape.Circle" class="avatar_7" kanban_view-scope></IgbAvatar>
+                    </div>
+                    <h3 slot="title">
+                        Copy-Paste Update
+                    </h3>
+                    <h5 slot="subtitle">
+                        Deadline: Oct 24, 2021
+                    </h5>
+                </IgbCardHeader>
+                <IgbCardActions class="actions-content" kanban_view-scope>
+                    <IgbIconButton slot="start" Variant="IconButtonVariant.Flat" class="icon-button" kanban_view-scope>
+                        <span class="material-icons icon_1">
+                            attach_file
+                        </span>
+                        <IgbRipple></IgbRipple>
+                    </IgbIconButton>
+                    <IgbIconButton slot="start" Variant="IconButtonVariant.Flat" class="icon-button" kanban_view-scope>
+                        <span class="material-icons icon_1">
+                            archive
+                        </span>
+                        <IgbRipple></IgbRipple>
+                    </IgbIconButton>
+                    <IgbIconButton slot="start" Variant="IconButtonVariant.Flat" class="icon-button" kanban_view-scope>
+                        <span class="material-icons icon_1">
+                            share
+                        </span>
+                        <IgbRipple></IgbRipple>
+                    </IgbIconButton>
+                    <IgbButton Variant="ButtonVariant.Flat" slot="end" Size="SizableComponentSize.Large" class="button" kanban_view-scope>
+                        COMPLETE
+                        <IgbRipple></IgbRipple>
+                    </IgbButton>
+                </IgbCardActions>
+            </IgbCard>
+            <IgbCard class="card" kanban_view-scope>
+                <IgbCardHeader>
+                    <div slot="thumbnail">
+                        <IgbAvatar Src="assets/Avatar2.png" Shape="AvatarShape.Circle" class="avatar_8" kanban_view-scope></IgbAvatar>
+                    </div>
+                    <h3 slot="title">
+                        Grid Data-Binding 
+                    </h3>
+                    <h5 slot="subtitle">
+                        Deadline: Oct 26, 2021
+                    </h5>
+                </IgbCardHeader>
+                <IgbCardActions class="actions-content" kanban_view-scope>
+                    <IgbIconButton slot="start" Variant="IconButtonVariant.Flat" class="icon-button" kanban_view-scope>
+                        <span class="material-icons icon_1">
+                            attach_file
+                        </span>
+                        <IgbRipple></IgbRipple>
+                    </IgbIconButton>
+                    <IgbIconButton slot="start" Variant="IconButtonVariant.Flat" class="icon-button" kanban_view-scope>
+                        <span class="material-icons icon_1">
+                            archive
+                        </span>
+                        <IgbRipple></IgbRipple>
+                    </IgbIconButton>
+                    <IgbIconButton slot="start" Variant="IconButtonVariant.Flat" class="icon-button" kanban_view-scope>
+                        <span class="material-icons icon_1">
+                            share
+                        </span>
+                        <IgbRipple></IgbRipple>
+                    </IgbIconButton>
+                    <IgbButton Variant="ButtonVariant.Flat" slot="end" Size="SizableComponentSize.Large" class="button" kanban_view-scope>
+                        COMPLETE
+                        <IgbRipple></IgbRipple>
+                    </IgbButton>
+                </IgbCardActions>
+            </IgbCard>
+            <IgbCard class="card" kanban_view-scope>
+                <IgbCardHeader>
+                    <div slot="thumbnail">
+                        <IgbAvatar Src="https://d3cg6cexo8t5ug.cloudfront.net/avatars/avatar10.png" Shape="AvatarShape.Circle" class="avatar_9" kanban_view-scope></IgbAvatar>
+                    </div>
+                    <h3 slot="title">
+                        Main Dashboard Design
+                    </h3>
+                    <h5 slot="subtitle">
+                        Deadline: Oct 20, 2021
+                    </h5>
+                </IgbCardHeader>
+                <IgbCardActions class="actions-content" kanban_view-scope>
+                    <IgbIconButton slot="start" Variant="IconButtonVariant.Flat" class="icon-button" kanban_view-scope>
+                        <span class="material-icons icon_1">
+                            attach_file
+                        </span>
+                        <IgbRipple></IgbRipple>
+                    </IgbIconButton>
+                    <IgbIconButton slot="start" Variant="IconButtonVariant.Flat" class="icon-button" kanban_view-scope>
+                        <span class="material-icons icon_1">
+                            archive
+                        </span>
+                        <IgbRipple></IgbRipple>
+                    </IgbIconButton>
+                    <IgbIconButton slot="start" Variant="IconButtonVariant.Flat" class="icon-button" kanban_view-scope>
+                        <span class="material-icons icon_1">
+                            share
+                        </span>
+                        <IgbRipple></IgbRipple>
+                    </IgbIconButton>
+                    <IgbButton Variant="ButtonVariant.Flat" slot="end" Size="SizableComponentSize.Large" class="button" kanban_view-scope>
+                        COMPLETE
+                        <IgbRipple></IgbRipple>
+                    </IgbButton>
+                </IgbCardActions>
+            </IgbCard>
+        </div>
+        <div class="column-layout group_5">
+            <div class="row-layout group_6">
+                <div class="row-layout group_3">
+                    <span class="material-icons icon">
+                        assignment_late
+                    </span>
+                    <h6 class="h6">
+                        Validation
+                    </h6>
+                </div>
+                <IgbAvatar Initials="4" Shape="AvatarShape.Circle" class="avatar_10" kanban_view-scope></IgbAvatar>
+            </div>
+            <IgbCard class="card" kanban_view-scope>
+                <IgbCardHeader>
+                    <div slot="thumbnail">
+                        <IgbAvatar Src="assets/Avatar7.png" Shape="AvatarShape.Circle" class="avatar_11" kanban_view-scope></IgbAvatar>
+                    </div>
+                    <h3 slot="title">
+                        Update Samples
+                    </h3>
+                    <h5 slot="subtitle">
+                        Deadline: Oct 15, 2021
+                    </h5>
+                </IgbCardHeader>
+                <IgbCardMedia class="media-content" kanban_view-scope>
+                    <img src="assets/Samples.png" class="image" />
+                </IgbCardMedia>
+                <IgbCardActions class="actions-content" kanban_view-scope>
+                    <IgbIconButton slot="start" Variant="IconButtonVariant.Flat" class="icon-button" kanban_view-scope>
+                        <span class="material-icons icon_1">
+                            attach_file
+                        </span>
+                        <IgbRipple></IgbRipple>
+                    </IgbIconButton>
+                    <IgbIconButton slot="start" Variant="IconButtonVariant.Flat" class="icon-button" kanban_view-scope>
+                        <span class="material-icons icon_1">
+                            archive
+                        </span>
+                        <IgbRipple></IgbRipple>
+                    </IgbIconButton>
+                    <IgbIconButton slot="start" Variant="IconButtonVariant.Flat" class="icon-button" kanban_view-scope>
+                        <span class="material-icons icon_1">
+                            share
+                        </span>
+                        <IgbRipple></IgbRipple>
+                    </IgbIconButton>
+                    <IgbButton Variant="ButtonVariant.Flat" slot="end" Size="SizableComponentSize.Large" class="button" kanban_view-scope>
+                        COMPLETE
+                        <IgbRipple></IgbRipple>
+                    </IgbButton>
+                </IgbCardActions>
+            </IgbCard>
+            <IgbCard class="card" kanban_view-scope>
+                <IgbCardHeader>
+                    <div slot="thumbnail">
+                        <IgbAvatar Src="assets/Avatar6.png" Shape="AvatarShape.Circle" class="avatar_12" kanban_view-scope></IgbAvatar>
+                    </div>
+                    <h3 slot="title">
+                        Floating Toolbar
+                    </h3>
+                    <h5 slot="subtitle">
+                        Deadline: Oct 14, 2021
+                    </h5>
+                </IgbCardHeader>
+                <IgbCardActions class="actions-content" kanban_view-scope>
+                    <IgbIconButton slot="start" Variant="IconButtonVariant.Flat" class="icon-button" kanban_view-scope>
+                        <span class="material-icons icon_1">
+                            attach_file
+                        </span>
+                        <IgbRipple></IgbRipple>
+                    </IgbIconButton>
+                    <IgbIconButton slot="start" Variant="IconButtonVariant.Flat" class="icon-button" kanban_view-scope>
+                        <span class="material-icons icon_1">
+                            archive
+                        </span>
+                        <IgbRipple></IgbRipple>
+                    </IgbIconButton>
+                    <IgbIconButton slot="start" Variant="IconButtonVariant.Flat" class="icon-button" kanban_view-scope>
+                        <span class="material-icons icon_1">
+                            share
+                        </span>
+                        <IgbRipple></IgbRipple>
+                    </IgbIconButton>
+                    <IgbButton Variant="ButtonVariant.Flat" slot="end" Size="SizableComponentSize.Large" class="button" kanban_view-scope>
+                        COMPLETE
+                        <IgbRipple></IgbRipple>
+                    </IgbButton>
+                </IgbCardActions>
+            </IgbCard>
+            <IgbCard class="card" kanban_view-scope>
+                <IgbCardHeader>
+                    <div slot="thumbnail">
+                        <IgbAvatar Src="assets/Avatar9.png" Shape="AvatarShape.Circle" class="avatar_13" kanban_view-scope></IgbAvatar>
+                    </div>
+                    <h3 slot="title">
+                        Input Update
+                    </h3>
+                    <h5 slot="subtitle">
+                        Deadline: Oct 17, 2021
+                    </h5>
+                </IgbCardHeader>
+                <IgbCardMedia class="media-content" kanban_view-scope>
+                    <img src="assets/Inputs.png" class="image" />
+                </IgbCardMedia>
+                <IgbCardActions class="actions-content" kanban_view-scope>
+                    <IgbIconButton slot="start" Variant="IconButtonVariant.Flat" class="icon-button" kanban_view-scope>
+                        <span class="material-icons icon_1">
+                            attach_file
+                        </span>
+                        <IgbRipple></IgbRipple>
+                    </IgbIconButton>
+                    <IgbIconButton slot="start" Variant="IconButtonVariant.Flat" class="icon-button" kanban_view-scope>
+                        <span class="material-icons icon_1">
+                            archive
+                        </span>
+                        <IgbRipple></IgbRipple>
+                    </IgbIconButton>
+                    <IgbIconButton slot="start" Variant="IconButtonVariant.Flat" class="icon-button" kanban_view-scope>
+                        <span class="material-icons icon_1">
+                            share
+                        </span>
+                        <IgbRipple></IgbRipple>
+                    </IgbIconButton>
+                    <IgbButton Variant="ButtonVariant.Flat" slot="end" Size="SizableComponentSize.Large" class="button" kanban_view-scope>
+                        COMPLETE
+                        <IgbRipple></IgbRipple>
+                    </IgbButton>
+                </IgbCardActions>
+            </IgbCard>
+            <IgbCard class="card" kanban_view-scope>
+                <IgbCardHeader>
+                    <div slot="thumbnail">
+                        <IgbAvatar Src="assets/Avatar3.png" Shape="AvatarShape.Circle" class="avatar_14" kanban_view-scope></IgbAvatar>
+                    </div>
+                    <h3 slot="title">
+                        App Library
+                    </h3>
+                    <h5 slot="subtitle">
+                        Deadline: Oct 16, 2021
+                    </h5>
+                </IgbCardHeader>
+                <IgbCardMedia class="media-content" kanban_view-scope>
+                    <img src="assets/AppLIbrary.png" class="image" />
+                </IgbCardMedia>
+                <IgbCardActions class="actions-content" kanban_view-scope>
+                    <IgbIconButton slot="start" Variant="IconButtonVariant.Flat" class="icon-button" kanban_view-scope>
+                        <span class="material-icons icon_1">
+                            attach_file
+                        </span>
+                        <IgbRipple></IgbRipple>
+                    </IgbIconButton>
+                    <IgbIconButton slot="start" Variant="IconButtonVariant.Flat" class="icon-button" kanban_view-scope>
+                        <span class="material-icons icon_1">
+                            archive
+                        </span>
+                        <IgbRipple></IgbRipple>
+                    </IgbIconButton>
+                    <IgbIconButton slot="start" Variant="IconButtonVariant.Flat" class="icon-button" kanban_view-scope>
+                        <span class="material-icons icon_1">
+                            share
+                        </span>
+                        <IgbRipple></IgbRipple>
+                    </IgbIconButton>
+                    <IgbButton Variant="ButtonVariant.Flat" slot="end" Size="SizableComponentSize.Large" class="button" kanban_view-scope>
+                        COMPLETE
+                        <IgbRipple></IgbRipple>
+                    </IgbButton>
+                </IgbCardActions>
+            </IgbCard>
+        </div>
+        <div class="column-layout group_1">
+            <div class="row-layout group_7">
+                <div class="row-layout group_3">
+                    <span class="material-icons icon">
+                        check_circle
+                    </span>
+                    <h6 class="h6">
+                        Done
+                    </h6>
+                </div>
+                <IgbAvatar Initials="5" Shape="AvatarShape.Circle" class="avatar_15" kanban_view-scope></IgbAvatar>
+            </div>
+            <IgbCard class="card" kanban_view-scope>
+                <IgbCardHeader>
+                    <div slot="thumbnail">
+                        <IgbAvatar Src="assets/Avatar8.png" Shape="AvatarShape.Circle" class="avatar_16" kanban_view-scope></IgbAvatar>
+                    </div>
+                    <h3 slot="title">
+                        Onboarding Experience
+                    </h3>
+                    <h5 slot="subtitle">
+                        October 13, 2021
+                    </h5>
+                </IgbCardHeader>
+                <IgbCardActions class="actions-content" kanban_view-scope>
+                    <IgbIconButton slot="start" Variant="IconButtonVariant.Flat" class="icon-button" kanban_view-scope>
+                        <span class="material-icons icon_1">
+                            attach_file
+                        </span>
+                        <IgbRipple></IgbRipple>
+                    </IgbIconButton>
+                    <IgbIconButton slot="start" Variant="IconButtonVariant.Flat" class="icon-button" kanban_view-scope>
+                        <span class="material-icons icon_1">
+                            archive
+                        </span>
+                        <IgbRipple></IgbRipple>
+                    </IgbIconButton>
+                    <IgbIconButton slot="start" Variant="IconButtonVariant.Flat" class="icon-button" kanban_view-scope>
+                        <span class="material-icons icon_1">
+                            share
+                        </span>
+                        <IgbRipple></IgbRipple>
+                    </IgbIconButton>
+                    <IgbButton Variant="ButtonVariant.Flat" slot="end" Size="SizableComponentSize.Large" class="button" kanban_view-scope>
+                        ARCHIVE
+                        <IgbRipple></IgbRipple>
+                    </IgbButton>
+                </IgbCardActions>
+            </IgbCard>
+            <IgbCard class="card" kanban_view-scope>
+                <IgbCardHeader>
+                    <div slot="thumbnail">
+                        <IgbAvatar Src="assets/Avatar2.png" Shape="AvatarShape.Circle" class="avatar_17" kanban_view-scope></IgbAvatar>
+                    </div>
+                    <h3 slot="title">
+                        Design Specs
+                    </h3>
+                    <h5 slot="subtitle">
+                        October 9, 2021
+                    </h5>
+                </IgbCardHeader>
+                <IgbCardActions class="actions-content" kanban_view-scope>
+                    <IgbIconButton slot="start" Variant="IconButtonVariant.Flat" class="icon-button" kanban_view-scope>
+                        <span class="material-icons icon_1">
+                            attach_file
+                        </span>
+                        <IgbRipple></IgbRipple>
+                    </IgbIconButton>
+                    <IgbIconButton slot="start" Variant="IconButtonVariant.Flat" class="icon-button" kanban_view-scope>
+                        <span class="material-icons icon_1">
+                            archive
+                        </span>
+                        <IgbRipple></IgbRipple>
+                    </IgbIconButton>
+                    <IgbIconButton slot="start" Variant="IconButtonVariant.Flat" class="icon-button" kanban_view-scope>
+                        <span class="material-icons icon_1">
+                            share
+                        </span>
+                        <IgbRipple></IgbRipple>
+                    </IgbIconButton>
+                    <IgbButton Variant="ButtonVariant.Flat" slot="end" Size="SizableComponentSize.Large" class="button" kanban_view-scope>
+                        ARCHIVE
+                        <IgbRipple></IgbRipple>
+                    </IgbButton>
+                </IgbCardActions>
+            </IgbCard>
+            <IgbCard class="card" kanban_view-scope>
+                <IgbCardHeader>
+                    <div slot="thumbnail">
+                        <IgbAvatar Src="assets/Avatar10.png" Shape="AvatarShape.Circle" class="avatar_18" kanban_view-scope></IgbAvatar>
+                    </div>
+                    <h3 slot="title">
+                        File Parser
+                    </h3>
+                    <h5 slot="subtitle">
+                        October 10, 2021
+                    </h5>
+                </IgbCardHeader>
+                <IgbCardMedia class="media-content" kanban_view-scope>
+                    <img src="assets/SketchParser.png" class="image" />
+                </IgbCardMedia>
+                <IgbCardActions class="actions-content" kanban_view-scope>
+                    <IgbIconButton slot="start" Variant="IconButtonVariant.Flat" class="icon-button" kanban_view-scope>
+                        <span class="material-icons icon_1">
+                            attach_file
+                        </span>
+                        <IgbRipple></IgbRipple>
+                    </IgbIconButton>
+                    <IgbIconButton slot="start" Variant="IconButtonVariant.Flat" class="icon-button" kanban_view-scope>
+                        <span class="material-icons icon_1">
+                            archive
+                        </span>
+                        <IgbRipple></IgbRipple>
+                    </IgbIconButton>
+                    <IgbIconButton slot="start" Variant="IconButtonVariant.Flat" class="icon-button" kanban_view-scope>
+                        <span class="material-icons icon_1">
+                            share
+                        </span>
+                        <IgbRipple></IgbRipple>
+                    </IgbIconButton>
+                    <IgbButton Variant="ButtonVariant.Flat" slot="end" Size="SizableComponentSize.Large" class="button" kanban_view-scope>
+                        ARCHIVE
+                        <IgbRipple></IgbRipple>
+                    </IgbButton>
+                </IgbCardActions>
+            </IgbCard>
+            <IgbCard class="card" kanban_view-scope>
+                <IgbCardHeader>
+                    <div slot="thumbnail">
+                        <IgbAvatar Src="assets/Avatar2.png" Shape="AvatarShape.Circle" class="avatar_19" kanban_view-scope></IgbAvatar>
+                    </div>
+                    <h3 slot="title">
+                        Final Mockups
+                    </h3>
+                    <h5 slot="subtitle">
+                        October 13, 2021
+                    </h5>
+                </IgbCardHeader>
+                <IgbCardActions class="actions-content" kanban_view-scope>
+                    <IgbIconButton slot="start" Variant="IconButtonVariant.Flat" class="icon-button" kanban_view-scope>
+                        <span class="material-icons icon_1">
+                            attach_file
+                        </span>
+                        <IgbRipple></IgbRipple>
+                    </IgbIconButton>
+                    <IgbIconButton slot="start" Variant="IconButtonVariant.Flat" class="icon-button" kanban_view-scope>
+                        <span class="material-icons icon_1">
+                            archive
+                        </span>
+                        <IgbRipple></IgbRipple>
+                    </IgbIconButton>
+                    <IgbIconButton slot="start" Variant="IconButtonVariant.Flat" class="icon-button" kanban_view-scope>
+                        <span class="material-icons icon_1">
+                            share
+                        </span>
+                        <IgbRipple></IgbRipple>
+                    </IgbIconButton>
+                    <IgbButton Variant="ButtonVariant.Flat" slot="end" Size="SizableComponentSize.Large" class="button" kanban_view-scope>
+                        ARCHIVE
+                        <IgbRipple></IgbRipple>
+                    </IgbButton>
+                </IgbCardActions>
+            </IgbCard>
+            <IgbCard class="card" kanban_view-scope>
+                <IgbCardHeader>
+                    <div slot="thumbnail">
+                        <IgbAvatar Src="assets/Avatar5.png" Shape="AvatarShape.Circle" class="avatar_20" kanban_view-scope></IgbAvatar>
+                    </div>
+                    <h3 slot="title">
+                        GitHub Integration
+                    </h3>
+                    <h5 slot="subtitle">
+                        September 30, 2021
+                    </h5>
+                </IgbCardHeader>
+                <IgbCardMedia class="media-content" kanban_view-scope>
+                    <img src="assets/Samples.png" class="image" />
+                </IgbCardMedia>
+                <IgbCardActions class="actions-content" kanban_view-scope>
+                    <IgbIconButton slot="start" Variant="IconButtonVariant.Flat" class="icon-button" kanban_view-scope>
+                        <span class="material-icons icon_1">
+                            attach_file
+                        </span>
+                        <IgbRipple></IgbRipple>
+                    </IgbIconButton>
+                    <IgbIconButton slot="start" Variant="IconButtonVariant.Flat" class="icon-button" kanban_view-scope>
+                        <span class="material-icons icon_1">
+                            archive
+                        </span>
+                        <IgbRipple></IgbRipple>
+                    </IgbIconButton>
+                    <IgbIconButton slot="start" Variant="IconButtonVariant.Flat" class="icon-button" kanban_view-scope>
+                        <span class="material-icons icon_1">
+                            share
+                        </span>
+                        <IgbRipple></IgbRipple>
+                    </IgbIconButton>
+                    <IgbButton Variant="ButtonVariant.Flat" slot="end" Size="SizableComponentSize.Large" class="button" kanban_view-scope>
+                        ARCHIVE
+                        <IgbRipple></IgbRipple>
+                    </IgbButton>
+                </IgbCardActions>
+            </IgbCard>
+        </div>
+    </div>
+    <IgbDialog CloseOnOutsideClick="true" @ref="_newTaskDialog1">
+        <h5 slot="title">
+            Add New Task
+        </h5>
+        <div class="column-layout group_8">
+            <IgbInput Label="Task Title" Outlined="false" class="input" kanban_view-scope></IgbInput>
+            <div class="row-layout group_9">
+                <IgbSelect Outlined="false" Label="Project" Placeholder="Pick a project" class="select" kanban_view-scope>
+                    <span slot="prefix">
+                        <span class="material-icons icon_2">
+                            assignment
+                        </span>
+                    </span>
+                    <IgbSelectItem Value="Option">
+                        Fintech Project
+                    </IgbSelectItem>
+                    <IgbSelectItem Value="Option">
+                        DataViz Project
+                    </IgbSelectItem>
+                    <IgbSelectItem Value="Option">
+                        Onboarding Project
+                    </IgbSelectItem>
+                    <IgbSelectItem Value="Option">
+                        AppBuilder Project
+                    </IgbSelectItem>
+                </IgbSelect>
+                <IgbSelect Outlined="false" Label="Status" Placeholder="Set Status" class="select_1" kanban_view-scope>
+                    <span slot="prefix">
+                        <span class="material-icons icon_2">
+                            schedule
+                        </span>
+                    </span>
+                    <IgbSelectItem Value="Option">
+                        To Do
+                    </IgbSelectItem>
+                    <IgbSelectItem Value="Option">
+                        In Development
+                    </IgbSelectItem>
+                    <IgbSelectItem Value="Option">
+                        Validation
+                    </IgbSelectItem>
+                    <IgbSelectItem Value="Option">
+                        Done
+                    </IgbSelectItem>
+                </IgbSelect>
+            </div>
+        </div>
+        <div slot="footer">
+            <IgbButton Size="SizableComponentSize.Large" @onclick="@(e => _newTaskDialog1!.ToggleAsync())" class="button_1" kanban_view-scope>
+                Create Task
+                <IgbRipple></IgbRipple>
+            </IgbButton>
+        </div>
+    </IgbDialog>
+    <IgbButton Variant="ButtonVariant.Fab" Size="SizableComponentSize.Large" @onclick="@(e => _newTaskDialog1!.ToggleAsync())" class="button_2 button_2_1" kanban_view-scope>
+        <span class="material-icons icon_3">
+            add
+        </span>
+        <IgbRipple></IgbRipple>
+    </IgbButton>
+</div>
+
+@code {
+    private IgbDialog _newTaskDialog1;
+}
